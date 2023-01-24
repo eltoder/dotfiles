@@ -31,11 +31,12 @@ colorscheme gruvbox
 
 "" Misc
 syntax enable
+set nofoldenable
 set ruler
 set laststatus=2
 set showcmd
 set hidden
-set history=100
+set history=1000
 set hlsearch
 set incsearch
 set backspace=indent,eol,start
@@ -54,4 +55,3 @@ nnoremap <leader>s :setlocal spell!<CR>
 
 "" restore last cursor position
 au BufReadPost * if line("'\"") >= 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-
