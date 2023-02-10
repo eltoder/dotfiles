@@ -64,6 +64,7 @@ autocmd Filetype gitcommit setlocal spell
 set pastetoggle=<F12>
 nnoremap ; :
 nnoremap <leader>c :noh<CR>
+nnoremap <leader>n :setlocal number!<CR>
 nnoremap <leader>s :setlocal spell!<CR>
 
 "" restore last cursor position
